@@ -38,6 +38,7 @@ PUYA_orgel_TRAIN_F002A_16
 ファイル構成、回路図や基板レイアウト例などの詳細は専用Wikiをご参照ください。
 ### 👉 [詳しい解説・回路図（Wikiページ）](https://github.com/ToyDr-W/PUYA_orgel_TRAIN_F002A_16/wiki/Home)
 
+---
 
 ## 🤝 地域貢献とリサイクルへの想い
 おもちゃのリサイクル活動にお役立てください。
