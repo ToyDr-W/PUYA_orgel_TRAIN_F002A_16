@@ -1,0 +1,17 @@
+Dependencies for Project 'PY32F002', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::ARMCLANG
+F (.\main.c)(0x6AD7E590)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../Include-IC:/Users/ToyDr/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/ToyDr/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/Puya/PY32F0xx/Include-D__UVISION_VERSION="541"-o ./objects/main.o -MMD)
+I (py32f0xx.h)(0x682F0218)
+I (py32f002ax5.h)(0x6357293E)
+I (..\Include\core_cm0plus.h)(0x664BCA78)
+I (C:\Users\ToyDr\AppData\Local\Arm\Packs\Puya\PY32F0xx_DFP\1.2.2\Drivers\CMSIS\Device\PY32F0xx\Include\system_py32f0xx.h)(0x6844F5FB)
+I (orgel_cnf.h)(0x6AD7E5AB)
+I (..\orgel.h)(0x6AB21C30)
+I (..\dev_F002A_16.c)(0x6AD15A09)
+I (..\common.c)(0x6AA76CB4)
+I (..\dev_SPI.c)(0x6AC9C4DE)
+I (..\orgel.c)(0x6ACF35F0)
+I (..\dev_PWM.c)(0x6AC9E441)
+I (..\apl_SW_TRAIN.c)(0x6AD754BA)
+I (..\func_SW.c)(0x683D8881)
+F (.\startup_py32f002ax5_PA1.s)(0x6A2D26E1)(--target=arm-arm-none-eabi -mcpu=cortex-m0plus -masm=auto  -Wa,armasm,--diag_suppress=A1950W -c-gdwarf-4-IC:/Users/ToyDr/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/PY32F0xx/Include-IC:/Users/ToyDr/AppData/Local/Arm/Packs/Puya/PY32F0xx_DFP/1.2.2/Drivers/CMSIS/Device/Puya/PY32F0xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 541"-o ./objects/startup_py32f002ax5_pa1.o)
