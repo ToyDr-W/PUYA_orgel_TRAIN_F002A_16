@@ -29,7 +29,7 @@ PUYA_orgel_TRAIN_F002A_16
 ---
 
 ## 📖 詳しい解説・回路図（Wikiページ）
-応用事例の詳細は [おもちゃ修理「電子カルテ」ブログ](https://blog.canpan.info/charts/archive/487) を、
+臨床事例からのマイコン換装の構想経緯は [おもちゃ修理「電子カルテ」 サウンドトレイン、音が出ない（スピーカ交換）](https://blog.canpan.info/charts/archive/487) を、
 ファイル構成、回路図や基板レイアウト例などの詳細は専用Wikiをご参照ください。
 ### 👉 [詳しい解説・回路図（Wikiページ）](https://github.com/ToyDr-W/PUYA_orgel_TRAIN_F002A_16/wiki/Home)
 
