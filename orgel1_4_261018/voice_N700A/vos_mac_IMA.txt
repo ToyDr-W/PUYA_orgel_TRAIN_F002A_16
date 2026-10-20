@@ -1,0 +1,5 @@
+	vos_mac(0x000000,0x00a9de,16000)	//1:N700A1.wav
+	vos_mac(0x00a9de,0x00cb5a,16000)	//2:N700A2.wav
+	vos_mac(0x017538,0x006fa2,16000)	//3:N700A3.wav
+	vos_mac(0x01e4da,0x0228b2,16000)	//4:N700A4.wav
+	vos_mac(0x040d8c,0x00c556,16000)	//5:N700A5.wav
