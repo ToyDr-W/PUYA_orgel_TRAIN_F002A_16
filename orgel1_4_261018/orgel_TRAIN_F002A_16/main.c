@@ -136,7 +136,7 @@ W25Qのﾋﾟﾝ接(標準SPIﾓｰﾄﾞ)
 //PY32のﾋﾟﾝ接
 //==============================================
 PY32F002A(16ﾋﾟﾝ)のﾎﾟｰﾄの割当て
-1:(PA7)/(I2C_SDA)SDA(24FCのSDAに繋ぐ)/(ADC_IN7)CdS
+1:(PA7)/(I2C_SDA)SDA(24FCのSDAに繋ぐ)/(ADC_IN7)CdS	//LED1(Dr.W)
 2:(PB0)SW1/(TIM1_CH2N)ｺﾝﾌﾟﾘ逆相出力
 3:(PB1)SW1/(TIM1_CH3N)ﾌﾞﾘｯｼﾞ･ﾌﾞﾚｰｷ逆相出力
 4:Vcc
@@ -145,12 +145,12 @@ PY32F002A(16ﾋﾟﾝ)のﾎﾟｰﾄの割当て
 7:(PA14-SWC)ISP時のﾃﾞﾊﾞｸﾞ情報出力
 8:(PF2-NRST)SW0=====>PF2はNRST機能を無効にしてGPIO機能に設定しておくこと
 9:(PF0-OSCIN)/(USART1_RX)ﾃﾞﾊﾞｸﾞ情報入力､UART入力
-10:(PF1-OSCOUT)ﾃﾞﾊﾞｸﾞ情報出力/(USART1_TX)ﾃﾞﾊﾞｸﾞ情報出力､UART出力
-11:(PA0)/(SPI1_MISO)MISO(M25QのDO･SDCのDOに繋ぐ､2線3線SPIでは不使用)
+10:(PF1-OSCOUT)ﾃﾞﾊﾞｸﾞ情報出力/(USART1_TX)ﾃﾞﾊﾞｸﾞ情報出力､UART出力	//SW2(Dr.W)
+11:(PA0)/(SPI1_MISO)MISO(M25QのDO･SDCのDOに繋ぐ､2線3線SPIでは不使用)	//LED0(Dr.W)
 12:(PA1)BOOT0代替/(SPI1_MOSI)MOSI(M25QのDI･SDCのDIに繋ぐ)
 13:Vss
 14:(PA2)/(SPI1_SCK)SCK(M25QのCLK･SDCのCLKに繋ぐ)
-15:(PA3)/(I2C_SCL)SCL(24FCのSCLに繋ぐ)/(ADC_IN3)CVD0
+15:(PA3)/(I2C_SCL)SCL(24FCのSCLに繋ぐ)/(ADC_IN3)CVD0	//SW3(Dr.W)
 16:(PA6)SS(M25QのCS･SDCのCSに繋ぐ､2線SPIでは不使用)
 */
 
@@ -317,8 +317,8 @@ PY32F002A(16ﾋﾟﾝ)のﾎﾟｰﾄの割当て
 //LEDのﾎﾟｰﾄ定義	 (Dr.W)
 #define	LED0_GPIO	GPIOA		//LED0のﾎﾟｰﾄ
 #define	LED0_BIT	0		//LED0のﾋﾞｯﾄ
-#define	LED1_GPIO	GPIOF		//LED1のﾎﾟｰﾄ
-//#define	LED1_BIT	7		//LED1のﾋﾞｯﾄ
+#define	LED1_GPIO	GPIOA		//LED1のﾎﾟｰﾄ
+#define	LED1_BIT	7		//LED1のﾋﾞｯﾄ
 //#define	LED2_GPIO	GPIOD		//LED2のﾎﾟｰﾄ
 //#define	LED2_BIT	3		//LED2のﾋﾞｯﾄ
 //#define	LED3_GPIO	GPIOC		//LED3のﾎﾟｰﾄ
