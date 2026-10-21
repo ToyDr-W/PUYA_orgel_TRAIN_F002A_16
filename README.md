@@ -14,8 +14,9 @@ PUYA_orgel_TRAIN_F002A_16
 - **楽しく遊べる設計**：タクトSW、CdSで光センス、CVDタッチセンス、LEDインターバル点滅をサポート。
 - **省エネ・省コスト**：電力消費効率に優れた `BTL=3`出力で電池２本での運用に好適、狭小なおもちゃケースに収まる省スペース設計。
 <p align="center">
-  <img width="30%" alt="250816_113JR (1)" src="https://github.com/user-attachments/assets/254fe10a-884e-4442-bf8c-56c2ed1a3c6d" />
-  <img width="30%" alt="250816_113JR (5)" src="https://github.com/user-attachments/assets/38905edf-4073-4dfb-bc02-1300577e1e01" />
+  <img width="40%" alt="250816_113JR (1)" src="https://github.com/user-attachments/assets/254fe10a-884e-4442-bf8c-56c2ed1a3c6d" />
+  <img width="40%" alt="250816_113JR (5)" src="https://github.com/user-attachments/assets/38905edf-4073-4dfb-bc02-1300577e1e01" />
+  <img width="24%" alt="240909_N700 (1)" src="https://github.com/user-attachments/assets/f48b4ae1-c869-46ca-80c8-23a99ce4c703" />
 <br>
 </p>
 
