@@ -421,32 +421,34 @@ static const struct VOICES_HDR voiceS_idx[]=
 {
 
 #ifdef VOICES_IMA			//IMA-ADPCMのとき
-	//｢湘南電車｣の音声ﾃﾞｰﾀ(voice_JR113\W25Q16_IMA.hex)を使う
-	vos_mac(0x000000,0x022854,16000)	//1:JR113_1.wav
-	vos_mac(0x022854,0x0184dc,16000)	//2:JR113_2.wav
-	vos_mac(0x03ad30,0x00c2a8,16000)	//3:JR113_3.wav
-	vos_mac(0x046fd8,0x025600,16000)	//4:JR113_4.wav
+	//｢TRAIN｣の音声ﾃﾞｰﾀ(voice_TRAIN\W25Q16_IMA.hex)を使う
+				//｢湘南電車｣仕様にするとき
+	vos_mac(0x000000,0x022854,16000)	//1:JR113\JR113_1.wav
+	vos_mac(0x022854,0x0184dc,16000)	//2:JR113\JR113_2.wav
+	vos_mac(0x03ad30,0x00c2a8,16000)	//3:JR113\JR113_3.wav
+	vos_mac(0x046fd8,0x025600,16000)	//4:JR113\JR113_4.wav
 
-	//｢サウンド新幹線｣の音声ﾃﾞｰﾀ(voice_N700A\W25Q16_IMA.hex)を使う
-//	vos_mac(0x000000,0x00a9de,16000)	//1:N700A1.wav
-//	vos_mac(0x00a9de,0x00cb5a,16000)	//2:N700A2.wav
-//	vos_mac(0x017538,0x006fa2,16000)	//3:N700A3.wav
-//	vos_mac(0x01e4da,0x0228b2,16000)	//4:N700A4.wav
-//	vos_mac(0x040d8c,0x00c556,16000)	//5:N700A5.wav
+				//｢新幹線｣仕様にするとき
+//	vos_mac(0x06c5d8,0x00a9de,16000)	//5:N700A\N700A1.wav
+//	vos_mac(0x076fb6,0x00cb5a,16000)	//6:N700A\N700A2.wav
+//	vos_mac(0x083b10,0x006fa2,16000)	//7:N700A\N700A3.wav
+//	vos_mac(0x08aab2,0x0228b2,16000)	//8:N700A\N700A4.wav
+//	vos_mac(0x0ad364,0x00c556,16000)	//9:N700A\N700A5.wav
 
 #else
-	//｢湘南電車｣の音声ﾃﾞｰﾀ(voice_JR113\W25Q32.hex)を使う
-	vos_mac(0x000000,0x0450a8,16000)	//1:JR113_1.wav
-	vos_mac(0x0450a8,0x0309b8,16000)	//2:JR113_2.wav
-	vos_mac(0x075a60,0x018550,16000)	//3:JR113_3.wav
-	vos_mac(0x08dfb0,0x04ac00,16000)	//4:JR113_4.wav
+	//｢TRAIN｣の音声ﾃﾞｰﾀ(voice_TRAIN\W25Q16.hex)を使う
+				//｢湘南電車｣仕様にするとき
+	vos_mac(0x000000,0x0450a8,16000)	//1:JR113\JR113_1.wav
+	vos_mac(0x0450a8,0x0309b8,16000)	//2:JR113\JR113_2.wav
+	vos_mac(0x075a60,0x018550,16000)	//3:JR113\JR113_3.wav
+	vos_mac(0x08dfb0,0x04ac00,16000)	//4:JR113\JR113_4.wav
 
-	//｢サウンド新幹線｣の音声ﾃﾞｰﾀ(voice_N700A\W25Q32.hex)を使う
-//	vos_mac(0x000000,0x00a9de,16000)	//1:N700A1.wav
-//	vos_mac(0x00a9de,0x00cb5a,16000)	//2:N700A2.wav
-//	vos_mac(0x017538,0x006fa2,16000)	//3:N700A3.wav
-//	vos_mac(0x01e4da,0x0228b2,16000)	//4:N700A4.wav
-//	vos_mac(0x040d8c,0x00c556,16000)	//5:N700A5.wav
+				//｢新幹線｣仕様にするとき
+//	vos_mac(0x0d8bb0,0x0153bc,16000)	//5:N700A\N700A1.wav
+//	vos_mac(0x0edf6c,0x0196b4,16000)	//6:N700A\N700A2.wav
+//	vos_mac(0x107620,0x00df44,16000)	//7:N700A\N700A3.wav
+//	vos_mac(0x115564,0x045164,16000)	//8:N700A\N700A4.wav
+//	vos_mac(0x15a6c8,0x018aac,16000)	//9:N700A\N700A5.wav
 
 #endif
 };

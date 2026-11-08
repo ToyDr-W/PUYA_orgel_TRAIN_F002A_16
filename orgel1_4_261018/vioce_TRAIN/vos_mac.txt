@@ -1,0 +1,9 @@
+	vos_mac(0x000000,0x0450a8,16000)	//1:JR113\JR113_1.wav
+	vos_mac(0x0450a8,0x0309b8,16000)	//2:JR113\JR113_2.wav
+	vos_mac(0x075a60,0x018550,16000)	//3:JR113\JR113_3.wav
+	vos_mac(0x08dfb0,0x04ac00,16000)	//4:JR113\JR113_4.wav
+	vos_mac(0x0d8bb0,0x0153bc,16000)	//5:N700A\N700A1.wav
+	vos_mac(0x0edf6c,0x0196b4,16000)	//6:N700A\N700A2.wav
+	vos_mac(0x107620,0x00df44,16000)	//7:N700A\N700A3.wav
+	vos_mac(0x115564,0x045164,16000)	//8:N700A\N700A4.wav
+	vos_mac(0x15a6c8,0x018aac,16000)	//9:N700A\N700A5.wav
