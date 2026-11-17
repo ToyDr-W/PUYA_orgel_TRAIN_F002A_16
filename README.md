@@ -22,7 +22,7 @@ PUYA_orgel_TRAIN_F002A_16
 
 ### 📥 データのダウンロード方法
 最新の回路図およびプログラム一式をダウンロードするには、 リポジトリ右上にある緑色の **`[ <> Code ]`** ボタンをクリックし、メニューの一番下にある **`Download ZIP`** から一括ダウンロードできます。
-若しくは、[ここをクリックしてください。 ⬇️](https://github.com/ToyDr-W/PUYA_orgel_TRAYN_F002A_16/archive/refs/heads/main.zip)
+若しくは、[ここをクリックしてください。 ⬇️](https://github.com/ToyDr-W/PUYA_orgel_TRAIN_F002A_16/archive/refs/heads/main.zip)
 ダウンロード（42.3 MBのZIPファイル）が直ちに開始されます。
 
 ---
